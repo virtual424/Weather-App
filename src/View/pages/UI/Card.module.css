@@ -1,0 +1,10 @@
+.card {
+  margin: 1rem 0;
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  width: fit-content;
+  box-shadow: -2px 1px 13px 1px rgba(0, 0, 0, 0.81);
+  -webkit-box-shadow: -2px 1px 13px 1px rgba(0, 0, 0, 0.81);
+  -moz-box-shadow: -2px 1px 13px 1px rgba(0, 0, 0, 0.81);
+}

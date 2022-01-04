@@ -1,0 +1,36 @@
+.forecastDetail {
+  margin: 3rem auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.dayDesc {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  background-color: bisque;
+}
+
+.dayDesc > img {
+  flex: 0.15;
+  margin-right: 5px;
+}
+
+.dayDesc > div {
+  flex: 0.8;
+}
+
+.dayDesc > div > h2 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.dayDesc > div > p {
+  margin: 2px 0;
+}
+
+.dayDesc > div > p:last-child {
+  font-weight: 600;
+}

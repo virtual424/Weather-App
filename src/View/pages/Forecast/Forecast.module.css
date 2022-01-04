@@ -1,0 +1,68 @@
+.forecast {
+  margin: 3rem auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.searchContainer {
+  padding: 10px;
+  display: flex;
+  flex: 0.1;
+}
+
+.searchContainer > input {
+  flex: 0.8;
+  padding: 5px;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.searchContainer > button {
+  flex: 0.2;
+}
+
+.cityDesc {
+  margin-top: 20px;
+  padding: 10px;
+  flex: 0.2;
+  background-color: bisque;
+}
+
+.cityDesc > h2 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.cityDesc > p {
+  margin-top: 2px;
+  font-weight: 350;
+  font-size: 1rem;
+}
+
+.weatherContainer {
+  flex: 0.7;
+  margin-top: 20px;
+}
+
+.weatherContainer {
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 500px) {
+  .forecast {
+    width: 90%;
+  }
+}
+
+@media (min-width: 700px) {
+  .forecast {
+    width: 80%;
+  }
+} ;
